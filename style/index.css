@@ -109,3 +109,17 @@ footer a{
         color:white;
     }
 }
+@media(max-width:500px){
+    .gallery{
+        display:flex;
+        flex:row;
+        justify-content:space-around;
+    }
+    .gallery img{
+        width:26vh;
+        height:26vh;
+    }
+    .gallery p{
+        font-size:1.5rem;
+    }
+}
